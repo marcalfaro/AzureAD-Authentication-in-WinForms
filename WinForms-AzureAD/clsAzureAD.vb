@@ -8,6 +8,8 @@
 '#  Decode the Access Token received using Microsoft's own JSON Web Token parser: https://jwt.ms/
 '# 
 '#  Coded by Marc
+'#  https://github.com/marcalfaro
+'#  
 '#  24 May 2020
 '# 
 '###################################################################################
@@ -31,7 +33,7 @@ Public Class clsAzureAD
 
     Private PublicClientApp As IPublicClientApplication
 
-    Public Sub AzureBuildClient()
+    Public Sub IdentityBuildClient()
         PublicClientApp = PublicClientApplicationBuilder.Create(ClientId) _
             .WithRedirectUri("https://login.microsoftonline.com/common/oauth2/nativeclient") _
             .WithAuthority(AzureCloudInstance.AzurePublic, TenantId) _

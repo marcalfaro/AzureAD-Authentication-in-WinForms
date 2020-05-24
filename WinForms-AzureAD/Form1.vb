@@ -1,7 +1,9 @@
 ﻿'###############
 '#  
 '#  Very simple example of how to Authenticate to your Azure Active Directory with as minimal lines as possible.
+'#  
 '#  Coded by Marc, 24 May 2020
+'#  https://github.com/marcalfaro
 '#
 '###############
 
@@ -14,9 +16,9 @@ Public Class Form1
 
     'Specify your AzureAD ClientID and TenantID and build Public Client
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        oAzureAD.ClientId = "e3116694-7fe4-4fbd-9024-564a3688a776"
-        oAzureAD.TenantId = "80400424-236c-456d-9bf1-c90788c281f7"
-        oAzureAD.AzureBuildClient()
+        oAzureAD.ClientId = ""  'Enter your ClientID here
+        oAzureAD.TenantId = ""  'Enter your TenantID here
+        oAzureAD.IdentityBuildClient()
     End Sub
 
     'Sign in to your Azure Active Directory
@@ -36,3 +38,4 @@ Public Class Form1
     End Sub
 
 End Class
+

@@ -10,9 +10,9 @@ Imports System.Runtime.InteropServices
 
 <Assembly: AssemblyTitle("WinForms-AzureAD")>
 <Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("Hewlett-Packard")>
+<Assembly: AssemblyCompany("marcalfaro@live.com")>
 <Assembly: AssemblyProduct("WinForms-AzureAD")>
-<Assembly: AssemblyCopyright("Copyright © Hewlett-Packard 2020")>
+<Assembly: AssemblyCopyright("Copyright © marcalfaro@live.com 2020")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
