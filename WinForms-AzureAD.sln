@@ -9,6 +9,7 @@ Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+		Description = Authenticate to Azure AD
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{C337E5C3-CF21-4467-86A6-CAA0E9B75B80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
